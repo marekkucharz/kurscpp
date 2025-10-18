@@ -12,7 +12,7 @@ int main()
 	pi=3.14
 	Pole = pi*(r*r);
 	Obwod = 2 * pi * r;
-	cout << "Pole:" << Pole;
+	cout << "Pole:" << Pole << endl;
 	cout << "Obwod:" << Obwod;
 	  return 0;
 }
