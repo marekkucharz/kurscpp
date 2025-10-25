@@ -5,8 +5,8 @@
 
 using namespace std;
 
-void kwadrat(int x) {
-	cout << x * x;
+int kwadrat(int x) {
+	return x*x;
 }
 
 int main() {
@@ -14,6 +14,6 @@ int main() {
 	int a;
 	cout << "Podaj liczbę: " << endl;
 	cin >> a;
-	kwadrat(a);
+	cout << kwadrat(a);
 	return 0;
 }
